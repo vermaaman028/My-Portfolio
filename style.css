@@ -891,7 +891,7 @@ section .title {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-evenly
 }
 
 .skills-card-name{
@@ -1144,7 +1144,7 @@ a {
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
-    transition: .3s
+    transition: .3s;
 }
 
 .services .serv-content .card:hover,
@@ -1628,14 +1628,14 @@ a{
 
 .fs_container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-bottom: 40px;
 }
 
 .bs_container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-bottom: 40px;
 }
@@ -1710,7 +1710,7 @@ a{
     .fs_container,
     .bs_container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
         margin-bottom: 40px;
     }
